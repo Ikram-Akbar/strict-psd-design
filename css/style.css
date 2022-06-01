@@ -1,0 +1,56 @@
+/* universal css  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* end global css */
+
+
+
+
+/* Header part start */
+.header_container {
+
+    color: #f6f9f9;
+    width: 90%;
+    padding: 20px auto;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.logo {
+
+    width: 40%;
+}
+
+.logo img {}
+
+.menu {
+
+    width: 70%;
+}
+
+.menu ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    /* margin-left: 11px; */
+}
+
+.menu ul li {}
+
+.menu ul li a {
+
+    color: #2d3950;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+
+/* Header part end */
