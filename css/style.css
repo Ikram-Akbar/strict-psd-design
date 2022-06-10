@@ -187,3 +187,40 @@
 .service_content p {}
 
 /* Service Container end  */
+
+/* Gallery Section start  */
+.gallery_container {
+
+    background: #e2f5f5;
+
+    padding: 100px 0;
+}
+
+.gallery_content {
+
+    width: 80%;
+
+    margin: auto;
+}
+
+.gallery_text {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.gallery_text h2 {
+
+    margin-bottom: 10px;
+}
+
+.gallery_text p {}
+
+.gallery_section {}
+
+.gallery_item {}
+
+.gallery_item img {}
+
+/* Gallery Section end  */
