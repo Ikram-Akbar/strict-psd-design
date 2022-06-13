@@ -159,32 +159,26 @@
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+100 */
   background: #48baff;
   /* Old browsers */
-  background: -moz-linear-gradient(
-    left,
-    #48baff 0%,
-    #48baff 50%,
-    #5fc3ff 50%,
-    #5fc3ff 50%,
-    #5fc3ff 100%
-  );
+  background: -moz-linear-gradient(left,
+      #48baff 0%,
+      #48baff 50%,
+      #5fc3ff 50%,
+      #5fc3ff 50%,
+      #5fc3ff 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    left,
-    #48baff 0%,
-    #48baff 50%,
-    #5fc3ff 50%,
-    #5fc3ff 50%,
-    #5fc3ff 100%
-  );
+  background: -webkit-linear-gradient(left,
+      #48baff 0%,
+      #48baff 50%,
+      #5fc3ff 50%,
+      #5fc3ff 50%,
+      #5fc3ff 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to right,
-    #48baff 0%,
-    #48baff 50%,
-    #5fc3ff 50%,
-    #5fc3ff 50%,
-    #5fc3ff 100%
-  );
+  background: linear-gradient(to right,
+      #48baff 0%,
+      #48baff 50%,
+      #5fc3ff 50%,
+      #5fc3ff 50%,
+      #5fc3ff 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff', GradientType=1);
   /* IE6-9 */
@@ -199,8 +193,7 @@
   margin: 15px 0 10px;
 }
 
-.service_content p {
-}
+.service_content p {}
 
 /* Service Container end  */
 
@@ -227,8 +220,7 @@
   margin-bottom: 10px;
 }
 
-.gallery_text p {
-}
+.gallery_text p {}
 
 .gallery_section {
   display: flex;
@@ -238,7 +230,7 @@
 }
 
 .gallery_item {
-    position: relative;
+  position: relative;
   width: 32%;
   margin-bottom: 12px;
 }
@@ -246,20 +238,59 @@
 .gallery_item img {
   width: 100%;
 }
-.gallery_item::before{
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    background-color: #48baff;
-    opacity: 0.5;
-    transition: 0.4s all ease-in-out;
+
+.gallery_item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #48baff;
+  opacity: 0.7;
+  transition: 0.4s all ease-in-out;
 
 }
-.gallery_item:hover::before{
-    width: 100%;
+
+.gallery_item:hover::before {
+  width: 100%;
+}
+
+.gallery_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  opacity: 0;
+}
+
+.gallery_icon ul {
+  list-style: none;
+  display: flex;
+}
+
+.gallery_icon ul li {
+  /* margin: 0; */
+  padding: 5px;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  border: 1px solid rgb(226 245 245);
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery_icon ul li a {
+  color: white;
+}
+
+.gallery_icon ul li a i {}
+.gallery_item:hover .gallery_icon{
+  opacity: 1;
 }
 
 
