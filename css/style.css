@@ -263,6 +263,7 @@
   transform: translate(-50%, -50%);
   z-index: 9999;
   opacity: 0;
+  transition: 0.8 all ease-in-out;
 }
 
 .gallery_icon ul {
@@ -295,3 +296,46 @@
 
 
 /* Gallery Section end  */
+
+/* Contact us section start */
+
+.contact_container{
+
+}
+.contact_form{
+  
+}
+.contact_form h2{
+
+}
+.contact_form p{
+
+}
+.contact_form form{
+  
+}
+.contact_form form input{
+
+}
+.contact_form form textarea{
+
+}
+.submit_section{
+  
+}
+.check_section{
+  
+}
+.check_section input{
+  
+}
+.check_section p{
+  
+}
+.send_btn{
+
+}
+.send_btn input{
+  
+}
+/* Contact us section end */
