@@ -306,14 +306,15 @@
   position: relative;
   z-index: 0;
 }
-.contact_container::before{
+
+.contact_container::before {
   position: absolute;
   content: "";
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:#2d3950;
+  background-color: #2d3950;
   opacity: 0.7;
   z-index: -1;
 }
@@ -355,11 +356,13 @@
 
   margin-bottom: 10px;
 }
+
 /* change placeholder color */
-.contact_form form input::placeholder{
+.contact_form form input::placeholder {
   color: #fff;
 }
-.contact_form form textarea::placeholder{
+
+.contact_form form textarea::placeholder {
   color: #fff;
 }
 
@@ -432,3 +435,45 @@
 }
 
 /* Contact us section end */
+
+/* footer area start */
+footer {
+
+  background: #f6f9f9;
+}
+
+.footer_container {
+
+  width: 80%;
+
+  min-height: 80px;
+
+  margin: auto;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  align-content: stretch;
+}
+
+.footer_text {
+
+  color: #999999;
+}
+
+
+.footer_icon i {
+
+  background: #48baff;
+
+  color: white;
+
+  padding: 10px;
+
+  margin: 2px;
+}
+
+/* footer area end*/
